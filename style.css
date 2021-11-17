@@ -29,7 +29,9 @@ body {
 /* TOP MENU */
 
 .menu {
-    grid-area: row start / col start / row end / col end;
+    grid-area: 1 / 1 / 2 / 13;
+    background-color: blue;
+    color: white;
 }
 
 /* HERO */

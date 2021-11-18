@@ -4,11 +4,11 @@
 
 /* RESET */
 
-/* * {
+* {
     border: 0;
     margin: 0;
     padding: 0;
-} */
+}
 
 /* GLOBAL */
 
@@ -20,7 +20,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-template-areas: 
       "header header header header"
@@ -32,6 +32,15 @@ body {
 
 header {
     grid-area: header;
+    background-image: url(Media/jeremy-bishop-1EBk5DutZqY-unsplash.jpg);
+    background-position: bottom;
+    object-fit: contain;
+    min-height: 8vh;
+    text-align: center;
+    mix-blend-mode: color-burn;
+    font-size: 4rem;
+    padding: 2rem;
+    font-weight: 700;
 }
 
 /* MAIN */

@@ -18,26 +18,36 @@ body {
 
 /* GRID LAYOUT */
 
-.grid {
+.container {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-    grid-column-gap: 0;
-    grid-row-gap: 0;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "main main . navigation"
+      "footer footer footer footer";
 }
 
-/* TOP MENU */
+/* HEADER */
 
-.menu {
-    grid-area: 1 / 1 / 2 / 13;
-    background-color: blue;
-    color: white;
+header {
+    grid-area: header;
 }
 
-/* HERO */
+/* MAIN */
 
-/* CLUB DESCRIPTION */
+main {
+    grid-area: main;
+}
 
-/* GALLERY */
+/* NAVIGATION */
+
+nav {
+    grid-area: navigation;
+}
 
 /* FOOTER */
+
+footer {
+    grid-area: footer;
+}

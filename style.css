@@ -16,16 +16,21 @@ body {
     font-family: 'M PLUS Code Latin', sans-serif;
 }
 
+.flex {
+    display: flex;
+}
+
 /* GRID LAYOUT */
 
 .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto;
-    grid-template-areas: 
-      "header header header header"
-      "main main . navigation"
-      "footer footer footer footer";
+    grid-template-areas:
+      ". . . . navigation navigation navigation navigation . . . ."
+      "header header header header header header header header header header header header"
+      "main main main main main main main main main main main main"
+      "footer footer footer footer footer footer footer footer footer footer footer footer";
 }
 
 /* HEADER */
@@ -33,26 +38,41 @@ body {
 header {
     grid-area: header;
     background-image: url(Media/jeremy-bishop-1EBk5DutZqY-unsplash.jpg);
-    background-position: bottom;
-    object-fit: contain;
-    min-height: 8vh;
+    /* background-position: bottom; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+
+    object-fit: cover;
+    min-height: 95vh;
     text-align: center;
     mix-blend-mode: color-burn;
     font-size: 4rem;
     padding: 2rem;
     font-weight: 700;
+
+    justify-content: center;
+    align-items: center
 }
 
 /* MAIN */
 
 main {
     grid-area: main;
+
+    background-color: azure;
 }
 
 /* NAVIGATION */
 
 nav {
     grid-area: navigation;
+}
+
+#nav-bar {
+    justify-content: space-around;
+    list-style: none;
 }
 
 /* FOOTER */

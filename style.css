@@ -98,6 +98,15 @@ main section {
     background-position: center center;
 }
 
+@media screen and (max-width: 768px) {
+
+    #middle-main {
+        background-position: center center;
+        /* background-size: cover; */
+        background-attachment: scroll;
+    }
+}
+
 /* NAVIGATION */
 
 nav {

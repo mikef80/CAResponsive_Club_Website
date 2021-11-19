@@ -78,6 +78,15 @@ header {
     }
 }
 
+@media screen and (max-width: 300px) {
+
+    header {
+        background-position: right bottom;
+        /* background-size: cover; */
+        background-attachment: scroll;
+    }
+}
+
 /* MAIN */
 
 main {

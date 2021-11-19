@@ -73,6 +73,7 @@ header {
 
     header {
         background-position: right bottom;
+        background-size: contain;
     }
 }
 

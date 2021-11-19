@@ -73,7 +73,8 @@ header {
 
     header {
         background-position: right bottom;
-        background-size: contain;
+        /* background-size: cover; */
+        background-attachment: scroll;
     }
 }
 

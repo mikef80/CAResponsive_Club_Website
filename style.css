@@ -14,6 +14,12 @@
 
 body {
     font-family: 'M PLUS Code Latin', sans-serif;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 .flex {
@@ -27,10 +33,17 @@ body {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
-      ". . . . navigation navigation navigation navigation . . . ."
+      ". . . navigation navigation navigation navigation navigation navigation . . ."
       "header header header header header header header header header header header header"
-      "main main main main main main main main main main main main"
+      ". . . . main main main main . . . ."
       "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
 }
 
 /* HEADER */
@@ -42,10 +55,10 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: center bottom;
 
-    object-fit: cover;
-    min-height: 95vh;
+    /* object-fit: cover; */
+    min-height: 94vh;
     text-align: center;
     mix-blend-mode: color-burn;
     font-size: 4rem;
@@ -56,12 +69,31 @@ header {
     align-items: center
 }
 
+@media screen and (max-width: 768px) {
+
+    header {
+        background-position: right bottom;
+    }
+}
+
 /* MAIN */
 
 main {
     grid-area: main;
+    /* background-color: azure; */
+}
 
-    background-color: azure;
+main section {
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+#middle-main {
+    background-image: url(Media/nathan-ziemanski-3scV_o_GRN0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
 }
 
 /* NAVIGATION */

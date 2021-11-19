@@ -51,11 +51,6 @@ a {
 header {
     grid-area: header;
     background-image: url(Media/jeremy-bishop-1EBk5DutZqY-unsplash.jpg);
-<<<<<<< HEAD
-    background-position: bottom;
-    object-fit: contain;
-    min-height: 100vh;
-=======
     /* background-position: bottom; */
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,7 +59,6 @@ header {
 
     /* object-fit: cover; */
     min-height: 94vh;
->>>>>>> 523235bfc7d05e59ceab288bdfa7ab7c0663b580
     text-align: center;
     mix-blend-mode: color-burn;
     font-size: 4rem;

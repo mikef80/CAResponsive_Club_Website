@@ -14,18 +14,36 @@
 
 body {
     font-family: 'M PLUS Code Latin', sans-serif;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
 }
 
 /* GRID LAYOUT */
 
 .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto;
-    grid-template-areas: 
-      "header header header header"
-      "main main . navigation"
-      "footer footer footer footer";
+    grid-template-areas:
+      ". . . navigation navigation navigation navigation navigation navigation . . ."
+      "header header header header header header header header header header header header"
+      "main main main main main main main main main main main main"
+      "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
 }
 
 /* HEADER */
@@ -33,26 +51,77 @@ body {
 header {
     grid-area: header;
     background-image: url(Media/jeremy-bishop-1EBk5DutZqY-unsplash.jpg);
+<<<<<<< HEAD
     background-position: bottom;
     object-fit: contain;
     min-height: 100vh;
+=======
+    /* background-position: bottom; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+
+    /* object-fit: cover; */
+    min-height: 94vh;
+>>>>>>> 523235bfc7d05e59ceab288bdfa7ab7c0663b580
     text-align: center;
     mix-blend-mode: color-burn;
     font-size: 4rem;
     padding: 2rem;
     font-weight: 700;
+
+    justify-content: center;
+    align-items: center
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        background-position: right bottom;
+        /* background-size: cover; */
+        background-attachment: scroll;
+    }
 }
 
 /* MAIN */
 
 main {
     grid-area: main;
+    /* background-color: azure; */
+}
+
+main section {
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+#middle-main {
+    background-image: url(Media/nathan-ziemanski-3scV_o_GRN0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+@media screen and (max-width: 768px) {
+
+    #middle-main {
+        background-position: center center;
+        /* background-size: cover; */
+        background-attachment: scroll;
+    }
 }
 
 /* NAVIGATION */
 
 nav {
     grid-area: navigation;
+}
+
+#nav-bar {
+    justify-content: space-around;
+    list-style: none;
 }
 
 /* FOOTER */

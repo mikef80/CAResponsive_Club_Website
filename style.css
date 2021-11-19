@@ -35,7 +35,7 @@ a {
     grid-template-areas:
       ". . . navigation navigation navigation navigation navigation navigation . . ."
       "header header header header header header header header header header header header"
-      ". . . . main main main main . . . ."
+      "main main main main main main main main main main main main"
       "footer footer footer footer footer footer footer footer footer footer footer footer";
 }
 
@@ -93,7 +93,7 @@ main section {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center bottom;
+    background-position: center center;
 }
 
 /* NAVIGATION */

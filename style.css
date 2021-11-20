@@ -39,59 +39,32 @@ a {
       "footer footer footer footer footer footer footer footer footer footer footer footer";
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        display: block;
-    }
-
-}
-
 /* HEADER */
 
 header {
     grid-area: header;
     background-image: url(Media/jeremy-bishop-1EBk5DutZqY-unsplash.jpg);
-    /* background-position: bottom; */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
-
-    /* object-fit: cover; */
     min-height: 94vh;
     text-align: center;
-    mix-blend-mode: color-burn;
     font-size: 4rem;
     padding: 2rem;
     font-weight: 700;
-
     justify-content: center;
     align-items: center
 }
 
-@media screen and (max-width: 768px) {
-
-    header {
-        background-position: right bottom;
-        /* background-size: cover; */
-        background-attachment: scroll;
-    }
-}
-
-@media screen and (max-width: 300px) {
-
-    header {
-        background-position: right bottom;
-        /* background-size: cover; */
-        background-attachment: scroll;
-    }
+header h1 {
+    mix-blend-mode: hard-light;
 }
 
 /* MAIN */
 
 main {
     grid-area: main;
-    /* background-color: azure; */
 }
 
 main section {
@@ -99,21 +72,20 @@ main section {
     line-height: 30px;
 }
 
+#top-main {
+    background-image: url(Media/jeremy-bishop-E55BPtMqh2I-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
 #middle-main {
     background-image: url(Media/nathan-ziemanski-3scV_o_GRN0-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
-}
-
-@media screen and (max-width: 768px) {
-
-    #middle-main {
-        background-position: center center;
-        /* background-size: cover; */
-        background-attachment: scroll;
-    }
+    background-position: center 80%;
 }
 
 /* NAVIGATION */

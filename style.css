@@ -99,7 +99,7 @@ main section {
     background-image: url(Media/jeremy-bishop-E55BPtMqh2I-unsplash.jpg); 
 
     /* FADED BACKGROUND */
-    /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 60%, rgba(255, 255, 255, 1) 100%), url(Media/jeremy-bishop-E55BPtMqh2I-unsplash.jpg); */
+    /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 70%), url(Media/jeremy-bishop-E55BPtMqh2I-unsplash.jpg); */
 
     background-size: cover;
     background-repeat: no-repeat;

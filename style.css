@@ -26,6 +26,24 @@ a {
     display: flex;
 }
 
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.content {
+    justify-content: center;
+}
+
+.content {
+    max-width: 1000px;
+    padding: 20px 40px;
+    line-height: 200%;
+}
+
 /* GRID LAYOUT */
 
 .container {
@@ -78,6 +96,7 @@ main section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
+    /* justify-content: center; */
 }
 
 #middle-main {

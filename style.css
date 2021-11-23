@@ -61,7 +61,7 @@ a {
 
 /* RESPONSIVE CSS */
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:480px) {
     .content {
         width: 100%;
         /* max-width: 100%; */

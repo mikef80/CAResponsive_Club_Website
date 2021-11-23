@@ -103,6 +103,16 @@ header {
     align-items: center;
 }
 
+    /* RESPONSIVE CSS */
+
+    @media screen and (max-width:480px) {
+        header {
+            background-attachment: scroll;
+        }
+    }
+
+    /* RESPONSIVE CSS END */
+
 /* MAIN */
 
 main {

@@ -48,6 +48,7 @@ a {
 .MBM {
     mix-blend-mode: exclusion;
     color: white;
+    background-color: white;
 }
 
 /* GRID LAYOUT */
@@ -129,6 +130,8 @@ nav {
     position: sticky;
     top: 0;
     background-color: #ffffff;
+    font-size: 2rem;
+    padding: 0.25rem 0;
 }
 
 #nav-bar {

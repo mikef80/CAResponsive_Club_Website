@@ -175,7 +175,7 @@ main section {
    /* RESPONSIVE CSS */
 
    @media screen and (max-width:480px) {
-    #top-main {
+    #top-main, #middle-main, #bottom-main {
         background-attachment: scroll;
         background-size: auto 100%;
         }

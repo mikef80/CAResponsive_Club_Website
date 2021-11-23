@@ -108,6 +108,7 @@ header {
     @media screen and (max-width:480px) {
         header {
             background-attachment: scroll;
+            background-size: auto 100%;
         }
     }
 

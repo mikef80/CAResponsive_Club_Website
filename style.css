@@ -59,6 +59,16 @@ a {
     /* background-color: white; */
 }
 
+@media screen and (max-width:425px) {
+    .content {
+        width: 100%;
+    }
+
+    .flex {
+        display: block;
+    }
+}
+
 /* GRID LAYOUT */
 
 .container {

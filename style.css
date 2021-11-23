@@ -46,6 +46,7 @@ a {
     width: 50%;
     max-width: 1000px;
     padding: 10px 20px;
+    margin: 20px 20px;
     line-height: 200%;
 }
 
@@ -57,6 +58,13 @@ a {
     mix-blend-mode: exclusion;
     color: white;
     /* background-color: white; */
+}
+
+.glass {
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 10px;
 }
 
 /* RESPONSIVE CSS */
@@ -121,7 +129,7 @@ main {
 }
 
 main section {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     line-height: 30px;
 }
 
@@ -161,7 +169,7 @@ main section {
 #bottom-main {
 
     /* SOLID BACKGROUND */
-    background-image: url(Media/jeremy-bishop-E55BPtMqh2I-unsplash.jpg);
+    background-image: url(Media/stock-photo-boscombe-pier-1684369.jpg);
 
     /* FADED BACKGROUND */
     /* background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 60%, rgba(255, 255, 255, 1) 100%), url(Media/nathan-ziemanski-3scV_o_GRN0-unsplash.jpg); */

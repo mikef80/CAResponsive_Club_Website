@@ -18,8 +18,8 @@ body {
 }
 
 a {
-    color: black;
-    text-decoration: none;
+    color: white;
+    /* text-decoration: none; */
 }
 
 .flex {
@@ -34,15 +34,23 @@ a {
     justify-content: flex-end;
 }
 
-.content {
+.centre {
     justify-content: center;
+}
+
+.bottom {
+    align-items: flex-end;
 }
 
 .content {
     width: 50%;
     max-width: 1000px;
-    padding: 20px 40px;
+    padding: 10px 20px;
     line-height: 200%;
+}
+
+.content * {
+    padding-bottom: 2em;
 }
 
 .MBM {
@@ -128,6 +136,20 @@ main section {
     background-position: center 80%;
 }
 
+#bottom-main {
+
+    /* SOLID BACKGROUND */
+    background-image: url(Media/jeremy-bishop-E55BPtMqh2I-unsplash.jpg);
+
+    /* FADED BACKGROUND */
+    /* background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 60%, rgba(255, 255, 255, 1) 100%), url(Media/nathan-ziemanski-3scV_o_GRN0-unsplash.jpg); */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
 /* NAVIGATION */
 
 nav {
@@ -148,8 +170,17 @@ nav {
     list-style: none;
 }
 
+#nav-bar a {
+    color: black;
+    text-decoration: none;
+}
+
 /* FOOTER */
 
 footer {
     grid-area: footer;
+}
+
+#footer-main * {
+    padding-bottom: 0;
 }

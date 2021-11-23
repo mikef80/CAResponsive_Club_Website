@@ -59,15 +59,16 @@ a {
     /* background-color: white; */
 }
 
+/* RESPONSIVE CSS */
+
 @media screen and (max-width:425px) {
     .content {
         width: 100%;
-    }
-
-    .flex {
-        display: block;
+        /* max-width: 100%; */
     }
 }
+
+/* RESPONSIVE CSS END */
 
 /* GRID LAYOUT */
 

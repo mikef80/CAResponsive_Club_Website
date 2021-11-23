@@ -148,9 +148,9 @@ main section {
     /* justify-content: center; */
 }
 
-#top-main h1 {
+/* #top-main h1 {
     padding-bottom: 1rem;
-}
+} */
 
 #middle-main {
 
@@ -178,6 +178,12 @@ main section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
+}
+
+#top-main h2,
+#middle-main h2,
+#bottom-main h2 {
+    text-transform: uppercase;
 }
 
    /* RESPONSIVE CSS */

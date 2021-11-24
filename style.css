@@ -46,7 +46,9 @@ a {
     width: 50%;
     max-width: 1000px;
     padding: 10px 20px;
+    /* padding:5rem 0rem; */
     margin: 2rem 2rem;
+    /* margin: 5rem 3rem; */
     line-height: 200%;
 }
 
@@ -68,24 +70,24 @@ a {
     border-radius: 10px;
 } 
 
-/* RESPONSIVE CSS */
+    /* RESPONSIVE CSS */
 
-@media screen and (max-width:480px) {
-    .content {
-        width: 100%;
-        /* max-width: 100%; */
+    @media screen and (max-width:480px) {
+        .content {
+            width: 100%;
+            /* max-width: 100%; */
+        }
+
+        .glass {
+            background-color: #ffffff10;
+            /* background-color: rgba(255, 255, 255, 0.1); */
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 10px;
+        }
     }
 
-    .glass {
-        background-color: #ffffff10;
-        /* background-color: rgba(255, 255, 255, 0.1); */
-        backdrop-filter: blur(12px);
-        -webkit-backdrop-filter: blur(12px);
-        border-radius: 10px;
-    }
-}
-
-/* RESPONSIVE CSS END */
+    /* RESPONSIVE CSS END */
 
 /* GRID LAYOUT */
 
@@ -118,6 +120,10 @@ header {
     font-weight: 700;
     justify-content: center;
     align-items: center;
+}
+
+#head-main {
+    padding: 6rem 0rem;
 }
 
     /* RESPONSIVE CSS */

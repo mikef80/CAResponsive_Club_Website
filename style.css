@@ -77,8 +77,8 @@ a {
     }
 
     .glass {
-        background-color: #00000010;
-        backdrop-filter: blur(12px);
+        background-color: #ffffff10;
+        /* backdrop-filter: blur(12px); */
         -webkit-backdrop-filter: blur(12px);
         border-radius: 10px;
     }

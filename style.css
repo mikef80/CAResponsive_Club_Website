@@ -70,7 +70,7 @@ a {
 
 /* RESPONSIVE CSS */
 
-@media screen and (device-width:375px) {
+@media only screen and (device-width:375px) {
     .content {
         width: 100%;
         /* max-width: 100%; */

@@ -80,7 +80,7 @@ a {
         background-color: #ffffffff;
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
-        border-radius: 100px;
+        border-radius: 1px;
     }
 }
 

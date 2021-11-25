@@ -70,7 +70,7 @@ a {
     border-radius: 10px;
 } 
 
-@media only screen and (max-width:420px) {
+@media only screen and (max-width:420px) { /* THIS MEDIA QUERY WORKS - MAX-WIDTH:420PX */
     .glass {
         background-color: #ffffff10;
     }

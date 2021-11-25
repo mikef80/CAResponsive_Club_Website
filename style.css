@@ -181,6 +181,19 @@ main section {
     text-transform: uppercase;
 }
 
+@media only screen and (max-width:420px) { /* THIS MEDIA QUERY WORKS - MAX-WIDTH:420PX */
+    #top-main,
+    #middle-main,
+    #bottom-main {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+    #top-main {
+        background-image: url(Media/jeremy-bishop-E55BPtMqh2I-unsplash.jpg);
+    }
+}
+
 /* NAVIGATION */
 
 nav {

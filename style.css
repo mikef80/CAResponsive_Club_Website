@@ -210,6 +210,10 @@ main section {
         background-attachment: scroll;
         background-size: auto 100%;
         }
+
+    #top-main {
+        background-image: url(Media/jeremy-bishop-E55BPtMqh2I-unsplash.jpg);
+    }
     }
 
     /* RESPONSIVE CSS END */

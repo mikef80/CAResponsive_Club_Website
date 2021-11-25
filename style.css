@@ -75,14 +75,14 @@ a {
     @media screen and (max-width:374px) {
         .content {
             width: 100%;
-            /* max-width: 100%; */
+            /* min-width: 100%; */
         }
 
         .glass {
-            background-color: #ffffff10;
+            background-color: #ffffff00;
             /* background-color: rgba(255, 255, 255, 0.1); */
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(0px);
+            -webkit-backdrop-filter: blur(0px);
             border-radius: 10px;
         }
     }
@@ -210,6 +210,10 @@ main section {
         background-attachment: scroll;
         background-size: auto 100%;
         }
+
+    #top-main {
+        background-image: url(Media/jeremy-bishop-E55BPtMqh2I-unsplash.jpg);
+    }
     }
 
     /* RESPONSIVE CSS END */

@@ -70,24 +70,15 @@ a {
     border-radius: 10px;
 } 
 
-    /* RESPONSIVE CSS */
-
-    @media screen and (max-width:374px) {
-        .content {
-            width: 100%;
-            /* min-width: 100%; */
-        }
-
-        .glass {
-            background-color: #ffffff10;
-            /* background-color: rgba(255, 255, 255, 0.1); */
-            backdrop-filter: blur(0px);
-            -webkit-backdrop-filter: blur(0px);
-            border-radius: 10px;
-        }
+@media only screen and (max-width:375px) {
+    .glass {
+        background-color: #6495ed;
     }
 
-    /* RESPONSIVE CSS END */
+    .content {
+        width: 95%;
+    }
+}
 
 /* GRID LAYOUT */
 
@@ -125,17 +116,6 @@ header {
 #head-main {
     padding: 6rem 0rem;
 }
-
-    /* RESPONSIVE CSS */
-
-    @media screen and (max-width:480px) {
-        header {
-            background-attachment: scroll;
-            background-size: auto 100%;
-        }
-    }
-
-    /* RESPONSIVE CSS END */
 
 /* MAIN */
 
@@ -200,23 +180,6 @@ main section {
 #bottom-main h2 {
     text-transform: uppercase;
 }
-
-   /* RESPONSIVE CSS */
-
-   @media screen and (max-width:480px) {
-    #top-main, 
-    #middle-main, 
-    #bottom-main {
-        background-attachment: scroll;
-        background-size: auto 100%;
-        }
-
-    #top-main {
-        background-image: url(Media/jeremy-bishop-E55BPtMqh2I-unsplash.jpg);
-    }
-    }
-
-    /* RESPONSIVE CSS END */
 
 /* NAVIGATION */
 

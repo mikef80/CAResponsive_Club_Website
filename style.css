@@ -250,12 +250,30 @@ footer {
 
 /* COLLAPSIBLE MENU */
 
+    /* MENU ELEMENTS FOR MOBILE */
+
+    #nav-bar {
+        display: block;
+        text-align: center;
+    }
+
+    #nav-bar li {
+        padding: 0.5rem 0;
+    }
+
+    #nav-bar li:first-of-type {
+        padding-top: 1rem;
+    }
+
+    /* MENU IS CLOSED */
     .collapsible-menu label {
         font-family: 'Sedgwick Ave Display', cursive;
         font-size: 56px;
         display: block;
         cursor: pointer;
-        background: url(Icons/menu.png) no-repeat left center;
+        background: url(Icons/menu.png) no-repeat center top;
+        /* background-color: red; */
+        background-size: 20px 20px;
         padding: 10px 0 10px 50px;
     }
 
@@ -263,20 +281,22 @@ footer {
         display: none;
     } */
 
-    input:checked +label {
+    /* input:checked +label {
         background: url(Icons/menu.png);
-    }
+    } */
 
     .menu-content {
         max-height: 0;
         overflow: hidden;
         font-family: 'Oswald', sans-serif; 
-        padding: 0 0 0 50px;
+        /* padding: 0 auto; */
     }
 
+    /* MENU IS OPEN */
     /* Toggle Effect */
     input:checked ~ label {
         background: url(Icons/close.png) no-repeat center top;
+        /* background-color: greenyellow; */
         background-size: 20px 20px;
     }
 

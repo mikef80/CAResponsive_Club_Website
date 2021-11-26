@@ -243,7 +243,7 @@ footer {
         font-size: 56px;
         display: block;
         cursor: pointer;
-        background: url(Icons/search-13-16.png) norepeat left center;
+        background: url(Icons/search-13-16.png) no-repeat left center;
         padding: 10px 0 10px 50px;
     }
 
@@ -261,10 +261,11 @@ footer {
         font-family: 'Oswald', sans-serif; 
         padding: 0 0 0 50px;
     }
-    
+
     /* Toggle Effect */
     input:checked ~ label {
-        background: url(Icons/close.png);
+        background: url(Icons/close.png) no-repeat center top;
+        background-size: 20px 20px;
     }
 
     input:checked ~ .menu-content {

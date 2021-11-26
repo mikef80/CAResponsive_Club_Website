@@ -266,6 +266,7 @@ footer {
     }
 
     /* MENU IS CLOSED */
+
     .collapsible-menu label {
         font-family: 'Sedgwick Ave Display', cursive;
         font-size: 56px;
@@ -302,6 +303,9 @@ footer {
 
     input:checked ~ .menu-content {
         max-height: 100%;
+        /* background-color: yellow; */
+        /* height: calc(100%); */
+        transition: max-height 0.5s linear;
     }
 
 }

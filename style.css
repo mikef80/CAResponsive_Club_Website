@@ -246,7 +246,7 @@ footer {
     }
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:900px) {
 
 /* COLLAPSIBLE MENU */
 
@@ -272,10 +272,10 @@ footer {
         font-size: 56px;
         display: block;
         cursor: pointer;
-        background: url(Icons/menu.png) no-repeat center top;
+        background: url(Icons/menu.png) no-repeat center center;
         /* background-color: red; */
-        background-size: 20px 20px;
-        padding: 10px 0 10px 50px;
+        background-size: 30px;
+        padding: 20px 0 20px 50px;
     }
 
     /* input#menu {
@@ -296,9 +296,9 @@ footer {
     /* MENU IS OPEN */
     /* Toggle Effect */
     input:checked ~ label {
-        background: url(Icons/close.png) no-repeat center top;
+        background: url(Icons/close.png) no-repeat center center;
         /* background-color: greenyellow; */
-        background-size: 20px 20px;
+        background-size: 30px;
     }
 
     input:checked ~ .menu-content {

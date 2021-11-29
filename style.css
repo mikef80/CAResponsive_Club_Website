@@ -305,7 +305,7 @@ footer {
         max-height: 100%;
         /* background-color: yellow; */
         /* height: calc(100%); */
-        transition: max-height 0.5s linear;
+        transition: max-height 0s linear;
     }
 
 }

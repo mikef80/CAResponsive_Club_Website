@@ -216,15 +216,15 @@ footer {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width:900px) {
-    .MBM {
+    /* .MBM {
         color: limegreen;
-    }
+    } */
 }
 
 @media only screen and (max-width:480px) { /* THIS MEDIA QUERY WORKS - MAX-WIDTH:420PX */
-    .MBM {
+    /* .MBM {
         color: orange;
-    }
+    } */
     
     .glass {
         background-color: #ffffff10;

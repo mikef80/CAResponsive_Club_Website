@@ -234,6 +234,13 @@ footer {
         width: 95%;
     }
 
+    #top-main {
+        background-image: url(Media/jeremy-bishop-E55BPtMqh2I-unsplash.jpg);
+    }
+}
+
+@media only screen and (max-width:900px) {
+
     #head-main
     #top-main,
     #middle-main,
@@ -241,13 +248,6 @@ footer {
         background-attachment: scroll;
         background-size: cover;
     }
-
-    #top-main {
-        background-image: url(Media/jeremy-bishop-E55BPtMqh2I-unsplash.jpg);
-    }
-}
-
-@media only screen and (max-width:900px) {
 
 /* COLLAPSIBLE MENU */
 

@@ -241,7 +241,7 @@ footer {
 
 @media only screen and (max-width:900px) {
 
-    #head-main
+    #header,
     #top-main,
     #middle-main,
     #bottom-main {
